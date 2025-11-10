@@ -8,7 +8,7 @@ const Hero = () => {
       {/* 3D background (full cover) */}
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/2fSS9b44gtYBt4RI/scene.splinecode"
+          scene="https://prod.spline.design/7aHhZ9erjRzCQXD3/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
