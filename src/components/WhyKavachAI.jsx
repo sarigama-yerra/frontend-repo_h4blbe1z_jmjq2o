@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhyKavachAI = () => {
   return (
-    <section className="bg-gradient-to-b from-blue-50 to-white">
+    <section id="why" className="bg-gradient-to-b from-blue-50 to-white">
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="grid md:grid-cols-2 gap-8 items-start">
           <div>

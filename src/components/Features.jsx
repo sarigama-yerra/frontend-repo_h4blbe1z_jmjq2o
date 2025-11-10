@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle2, Gauge, Files, Workflow, BarChart3 } from 'lucide-react';
+import { CheckCircle2, Gauge, FileText, GitBranch, BarChart3 } from 'lucide-react';
 
 const features = [
   {
@@ -7,8 +7,8 @@ const features = [
     icon: CheckCircle2,
     desc: 'Automated checks for policy eligibility, coverage limits, and documentation completeness before submission.'
   },
-  { title: 'Document Digitization', icon: Files, desc: 'OCR and classification to convert paper-heavy processes into structured data.' },
-  { title: 'Workflow Automation', icon: Workflow, desc: 'Configurable rules to route tasks, approvals, and notifications across departments.' },
+  { title: 'Document Digitization', icon: FileText, desc: 'OCR and classification to convert paper-heavy processes into structured data.' },
+  { title: 'Workflow Automation', icon: GitBranch, desc: 'Configurable rules to route tasks, approvals, and notifications across departments.' },
   { title: 'Real-time Claim Status Dashboard', icon: Gauge, desc: 'Monitor claim progress, bottlenecks, and SLAs in one unified view.' },
   { title: 'Analytics & Insights', icon: BarChart3, desc: 'Identify patterns in rejections, improve coding accuracy, and optimize operations.' },
 ];
